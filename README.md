@@ -5,3 +5,4 @@ contact: a.guyot@uq.edu.au
 
 2023-10-16 - Scenic Rim - Small fire: 
 - [Radar reflectivity, tilt 8 degrees](https://appgc.github.io/web-prototype/Bokeh_Plot_2.html)
+- [Radar reflectivity, tilt 6 degrees](https://appgc.github.io/web-prototype/XPOL_DBZH_6deg.html)
