@@ -1,4 +1,4 @@
-# Prototype - UQ XPOL observations viewer 
+## Prototype - UQ XPOL observations viewer 
 contact: a.guyot@uq.edu.au
 
 ## Links to data samples
