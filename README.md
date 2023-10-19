@@ -1,8 +1,7 @@
-## web-prototype
-Prototype for public web page
-Just testing stuff
-blabla
+## Prototype - UQ XPOL observations viewer 
+contact: a.guyot@uq.edu.au
 
-# Hey
+## Links to data samples
 
-link to html: https://appgc.github.io/web-prototype/docs/XPOL.html
+2023-10-16 - Scenic Rim - Small fire: 
+- [Radar reflectivity, tilt 8 degrees](https://appgc.github.io/web-prototype/Bokeh_Plot_2.html)
