@@ -7,4 +7,4 @@
 - [Radar reflectivity, tilt 6 degrees](https://appgc.github.io/web-prototype/XPOL_DBZH_6deg.html)
 
 2022-11-15 - Monash XPOL - WA - Prescribed burn:
-- [Radar reflectivity](https://appgc.github.io/web-prototype/XPOL_DBZH_6deg.html)
+- [Radar reflectivity](https://appgc.github.io/web-prototype/2022_XPOL_Monash.html)
