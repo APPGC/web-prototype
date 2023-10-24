@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="549e891a-3a76-4120-88ac-5dfe34afa8c3" data-root-id="51558"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="52522">
+          {"43009391-9370-4d64-9cce-7609d3572183":{"defs":[],"roots":{"references":[{"attributes":{"api_key":"AIzaSyAUetwVfEN_qZZzrAp8T-vln4caf1-UpV8","below":[{"id":"51567"}],"left":[{"id":"51572"}],"map_options":{"id":"51557"},"renderers":[{"id":"51594"}],"title":{"id":"51563"},"toolbar":{"id":"51582"},"width":800,"x_range":{"id":"51559"},"x_scale":{"id":"52354"},"y_range":{"id":"51560"},"y_scale":{"id":"52355"}},"id":"51558","subtype":"GMap","type":"GMapPlot"},{"attributes":{},"id":"52358","type":"AllLabels"},{"attributes":{"lat":-27.787731,"lng":152.372359,"scale_control":true},"id":"51557","type":"GMapOptions"},{"attributes":{"dimension":"lat"},"id":"51570","type":"MercatorTickFormatter"},{"attributes":{"dimension":"lon"},"id":"51565","type":"MercatorTickFormatter"},{"attributes":{"overlay":{"id":"51581"}},"id":"51577","type":"BoxZoomTool"},{"attributes":{},"id":"52360","type":"Selection"},{"attributes":{},"id":"51559","type":"Range1d"},{"attributes":{},"id":"51579","type":"ResetTool"},{"attributes":{"palette":["#0C0786","#100787","#130689","#15068A","#18068B","#1B068C","#1D068D","#1F058E","#21058F","#230590","#250591","#270592","#290593","#2B0594","#2D0494","#2F0495","#310496","#330497","#340498","#360498","#380499","#3A049A","#3B039A","#3D039B","#3F039C","#40039C","#42039D","#44039E","#45039E","#47029F","#49029F","#4A02A0","#4C02A1","#4E02A1","#4F02A2","#5101A2","#5201A3","#5401A3","#5601A3","#5701A4","#5901A4","#5A00A5","#5C00A5","#5E00A5","#5F00A6","#6100A6","#6200A6","#6400A7","#6500A7","#6700A7","#6800A7","#6A00A7","#6C00A8","#6D00A8","#6F00A8","#7000A8","#7200A8","#7300A8","#7500A8","#7601A8","#7801A8","#7901A8","#7B02A8","#7C02A7","#7E03A7","#7F03A7","#8104A7","#8204A7","#8405A6","#8506A6","#8607A6","#8807A5","#8908A5","#8B09A4","#8C0AA4","#8E0CA4","#8F0DA3","#900EA3","#920FA2","#9310A1","#9511A1","#9612A0","#9713A0","#99149F","#9A159E","#9B179E","#9D189D","#9E199C","#9F1A9B","#A01B9B","#A21C9A","#A31D99","#A41E98","#A51F97","#A72197","#A82296","#A92395","#AA2494","#AC2593","#AD2692","#AE2791","#AF2890","#B02A8F","#B12B8F","#B22C8E","#B42D8D","#B52E8C","#B62F8B","#B7308A","#B83289","#B93388","#BA3487","#BB3586","#BC3685","#BD3784","#BE3883","#BF3982","#C03B81","#C13C80","#C23D80","#C33E7F","#C43F7E","#C5407D","#C6417C","#C7427B","#C8447A","#C94579","#CA4678","#CB4777","#CC4876","#CD4975","#CE4A75","#CF4B74","#D04D73","#D14E72","#D14F71","#D25070","#D3516F","#D4526E","#D5536D","#D6556D","#D7566C","#D7576B","#D8586A","#D95969","#DA5A68","#DB5B67","#DC5D66","#DC5E66","#DD5F65","#DE6064","#DF6163","#DF6262","#E06461","#E16560","#E26660","#E3675F","#E3685E","#E46A5D","#E56B5C","#E56C5B","#E66D5A","#E76E5A","#E87059","#E87158","#E97257","#EA7356","#EA7455","#EB7654","#EC7754","#EC7853","#ED7952","#ED7B51","#EE7C50","#EF7D4F","#EF7E4E","#F0804D","#F0814D","#F1824C","#F2844B","#F2854A","#F38649","#F38748","#F48947","#F48A47","#F58B46","#F58D45","#F68E44","#F68F43","#F69142","#F79241","#F79341","#F89540","#F8963F","#F8983E","#F9993D","#F99A3C","#FA9C3B","#FA9D3A","#FA9F3A","#FAA039","#FBA238","#FBA337","#FBA436","#FCA635","#FCA735","#FCA934","#FCAA33","#FCAC32","#FCAD31","#FDAF31","#FDB030","#FDB22F","#FDB32E","#FDB52D","#FDB62D","#FDB82C","#FDB92B","#FDBB2B","#FDBC2A","#FDBE29","#FDC029","#FDC128","#FDC328","#FDC427","#FDC626","#FCC726","#FCC926","#FCCB25","#FCCC25","#FCCE25","#FBD024","#FBD124","#FBD324","#FAD524","#FAD624","#FAD824","#F9D924","#F9DB24","#F8DD24","#F8DF24","#F7E024","#F7E225","#F6E425","#F6E525","#F5E726","#F5E926","#F4EA26","#F3EC26","#F3EE26","#F2F026","#F2F126","#F1F326","#F0F525","#F0F623","#EFF821"]},"id":"51589","type":"LogColorMapper"},{"attributes":{},"id":"51560","type":"Range1d"},{"attributes":{},"id":"52354","type":"LinearScale"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"51581","type":"BoxAnnotation"},{"attributes":{},"id":"52355","type":"LinearScale"},{"attributes":{"coordinates":null,"group":null,"text":"XPOL - Monash"},"id":"51563","type":"Title"},{"attributes":{"dimension":"lat"},"id":"51571","type":"MercatorTicker"},{"attributes":{},"id":"51578","type":"SaveTool"},{"attributes":{"tools":[{"id":"51575"},{"id":"51576"},{"id":"51577"},{"id":"51578"},{"id":"51579"},{"id":"51580"}]},"id":"51582","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"DBZH","transform":{"id":"51589"}},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":null},"line_width":{"value":0},"xs":{"field":"xs"},"ys":{"field":"ys"}},"id":"51593","type":"Patches"},{"attributes":{},"id":"51576","type":"WheelZoomTool"},{"attributes":{"data":{"DBZH":{"__ndarray__":"P7uA2FR6QEBeQGwqDXlCQA==","dtype":"float64","order":"little","shape":[2]},"index":[39668,39669],"xs":[[152.36221612408997,152.3612018352334,152.37051674551267,152.37068423666295,152.36221612408997],[152.3612018352334,152.3601875461467,152.3703492516678,152.37051674551267,152.3612018352334]],"ys":[[-27.787966838416274,-27.787990381285535,-27.7975208242008,-27.796630842680642,-27.787966838416274],[-27.787990381285535,-27.788013916705264,-27.798410805221767,-27.7975208242008,-27.787990381285535]]},"selected":{"id":"52360"},"selection_policy":{"id":"52359"}},"id":"51556","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"DBZH","transform":{"id":"51589"}},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":null},"line_width":{"value":0},"xs":{"field":"xs"},"ys":{"field":"ys"}},"id":"51592","type":"Patches"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"field":"DBZH","transform":{"id":"51589"}},"line_color":{"value":null},"line_width":{"value":0},"xs":{"field":"xs"},"ys":{"field":"ys"}},"id":"51591","type":"Patches"},{"attributes":{},"id":"51580","type":"HelpTool"},{"attributes":{},"id":"52357","type":"AllLabels"},{"attributes":{},"id":"52359","type":"UnionRenderers"},{"attributes":{"axis_label":"","coordinates":null,"formatter":{"id":"51570"},"group":null,"major_label_policy":{"id":"52357"},"ticker":{"id":"51571"}},"id":"51572","type":"LinearAxis"},{"attributes":{"dimension":"lon"},"id":"51566","type":"MercatorTicker"},{"attributes":{"axis_label":"","coordinates":null,"formatter":{"id":"51565"},"group":null,"major_label_policy":{"id":"52358"},"ticker":{"id":"51566"}},"id":"51567","type":"LinearAxis"},{"attributes":{"source":{"id":"51556"}},"id":"51595","type":"CDSView"},{"attributes":{"coordinates":null,"data_source":{"id":"51556"},"glyph":{"id":"51591"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"51593"},"nonselection_glyph":{"id":"51592"},"view":{"id":"51595"}},"id":"51594","type":"GlyphRenderer"},{"attributes":{},"id":"51575","type":"PanTool"}],"root_ids":["51558"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('52522').textContent;
+                  const render_items = [{"docid":"43009391-9370-4d64-9cce-7609d3572183","root_ids":["51558"],"roots":{"51558":"549e891a-3a76-4120-88ac-5dfe34afa8c3"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
